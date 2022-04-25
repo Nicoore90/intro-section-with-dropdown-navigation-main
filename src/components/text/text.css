@@ -1,0 +1,12 @@
+.description {
+    padding: 20px;
+    color: #444;
+}
+
+.button {
+    background-color: #000;
+    color: #ccc;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
