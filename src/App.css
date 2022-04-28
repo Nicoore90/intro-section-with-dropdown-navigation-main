@@ -33,11 +33,57 @@
   height: 300px;
 }
 
+.hero-desktop {
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 600px) and  (max-width: 1500px ) {
+  .hero-mobile {
+    display: none;
+  }
+
+  .hero-desktop {
+    display: block;
+    padding: 50px;
+    height: 25rem;
+    grid-area: img;
+  }
+
+  .content {
+    display: grid;
+    grid-template-areas: "title img"
+                          "description img"
+                          "footer img";
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hero-mobile{
+    display: none;
+  }
+
+  .hero-desktop {
+    display: block;
+    padding: 50px;
+    height: 55rem;
+    grid-area: img;
+  }
+
+  .content {
+    display: grid;
+    grid-template-areas: "title img"
+                          "description img"
+                          "footer img";
+    padding: 0rem 10rem;
   }
 }

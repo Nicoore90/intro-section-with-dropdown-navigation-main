@@ -8,7 +8,13 @@ export function Header() {
             <nav>
                 <ul>
                     <li className="logo"><img src={logo} /></li>
-                    <li><img src={menu} /></li>
+                    <li className="menu">Features</li>
+                    <li className="menu">Company</li>
+                    <li className="menu">Careers</li>
+                    <li className="menu">About</li>
+                    <li className="menu-closed"><img src={menu} /></li>
+                    <li className="login">Login</li>
+                    <li className="button"><button>Register</button></li>
                 </ul>
             </nav>
         </header>

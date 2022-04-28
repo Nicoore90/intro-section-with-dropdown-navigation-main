@@ -8,3 +8,15 @@ nav ul {
     padding-left: 10px;
 }
 
+.menu {
+    display: none;
+}
+
+.login {
+    display: none;
+}
+
+.button {
+    display: none;
+}
+

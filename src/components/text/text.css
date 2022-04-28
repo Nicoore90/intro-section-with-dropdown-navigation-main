@@ -1,6 +1,6 @@
 .description {
     padding: 20px;
-    color: #444;
+    color: #777;
 }
 
 .button {
@@ -9,4 +9,70 @@
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
+}
+
+.learn-more {
+    background-color: #000;
+    color: #ccc;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1500px) {
+    .title {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .description {
+        font-size: 1rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .learn-more {
+        font-size: 1rem;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .title {
+        font-size: 5rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 55rem;
+    }
+
+    .description {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .learn-more {
+        font-size: 2rem;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+        width: 30%;
+    }
 }
