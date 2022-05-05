@@ -2,7 +2,8 @@ import "./header.css"
 import logo from "./assets/logo.svg"
 import menu from "./assets/icon-menu.svg"
 import React, { useState } from 'react'
-import { Fragment } from "react"
+import { Features, FeaturesDropdown } from "./features/features"
+import { Company } from "./company/company"
 
 export function Header(props) {
 
@@ -15,8 +16,8 @@ export function Header(props) {
                 <ul> 
                     <div className="menu__main">
                         <li className="logo"><img src={logo} /></li>
-                        <li className="menu">Features</li>
-                        <li className="menu">Company</li>
+                        <li className="menu"><Features><FeaturesDropdown /></Features></li>
+                        <li className="menu"><Company /></li>
                         <li className="menu">Careers</li>
                         <li className="menu">About</li>
                     </div>
